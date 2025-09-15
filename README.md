@@ -1,10 +1,14 @@
 # Refinando um Projeto Conceitual de Banco de Dados - E-COMMERCE
+### Contexto:
 
-	- Contexto: Levantamento de requisitos
-	- Projeto Conceitual: Modelo Entidade Relacionamento
-	- Projeto Lógico: Modelo Relacional
+Desafio proposto no Bootcamp Randstad - Análise de Dados, no módulo de Sistemas Relacionais em Banco de Dados. Refinar o Projeto Conceitual de Bando de Dados de um E-COMMERCE nos seguintes pontos: 
 
-# Modelando E-COMMERCE:
+	- Cliente PJ e PF - Uma conta pode ser PJ ou PF, mas não pode ter as duas informações
+	- Pagamento - Pode ter cadastrado mais de uma forma de pagamento
+	- Entrega - possui status e código de restreio
+
+
+# Projeto Conceitual de Bando de Dados - E-COMMERCE:
 ### Produto:
 	- Os produtos são vendidos por uma unica plataforma online. Contudo, estes podem ter vendedores distintos (terceiros)
 	- Cada produto possui um fornecedor
@@ -20,14 +24,9 @@
 	- Um produto ou mais compoem o pedido
 	- O pedido pode ser cancelado
 
-
 ## Entidades: 
 - Cliente, Pedido, Produto e Fornecedor & estoque
 
-# Refinamento:
-	- Cliente PJ e PF - Uma conta pode ser PJ ou PF, mas não pode ter as duas informações
-	- Pagamento - Pode ter cadastrado mais de uma forma de pagamento
-	- Entrega - possui status e código de restreio
 
 ## Software usado para modelagem
 **MySQL Workbench**
